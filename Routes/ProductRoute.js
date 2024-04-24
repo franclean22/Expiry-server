@@ -89,7 +89,7 @@ const sendEmail = async (product, subject, text) => {
 
     const mailOptions = {
       from: "davidodimayo7@gmail.com",
-      to: "idowuodimayo@gmail.com",
+      to: "frankorubor22@gmail.com",
       subject: subject,
       text: text,
     };
@@ -136,7 +136,30 @@ cron.schedule("00 12 * * *", async () => {
     console.error("Error executing scheduled task:", error);
   }
 });
-
+cron.schedule("00 15 * * *", async () => {
+  try {
+    await checkExpiryAndSendEmails();
+    console.log("Scheduled task executed successfully.");
+  } catch (error) {
+    console.error("Error executing scheduled task:", error);
+  }
+});
+cron.schedule("00 18 * * *", async () => {
+  try {
+    await checkExpiryAndSendEmails();
+    console.log("Scheduled task executed successfully.");
+  } catch (error) {
+    console.error("Error executing scheduled task:", error);
+  }
+});
+cron.schedule("00 19 * * *", async () => {
+  try {
+    await checkExpiryAndSendEmails();
+    console.log("Scheduled task executed successfully.");
+  } catch (error) {
+    console.error("Error executing scheduled task:", error);
+  }
+});
 productRoute.get("/check-expiry", async (req, res) => {
   try {
     await checkExpiryAndSendEmails();
