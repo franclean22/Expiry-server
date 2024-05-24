@@ -16,7 +16,7 @@ const CLIENT_ID =
 const CLIENT_SECRET = "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";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground";
 const REFRESH_TOKEN =
-  "1//04XXjiudMjprJCgYIARAAGAQSNwF-L9IrN91bVPNiq40ZCro4YGZMKzh5y24YBQsqCgDyJKC-I50podubniFgO8uN-eFqacn0sJo";
+  "1//04iUqG0kEuo-FCgYIARAAGAQSNwF-L9IrlmGm2w4SaemRITiirRZ3153dAQfMBnwE28vjbxw3CTJITauDAtR4MpK6wnF88HUVeEw";
 
 // Initialize OAuth2 client
 const oAuth2Client = new google.auth.OAuth2(
@@ -90,6 +90,7 @@ const sendEmail = async (product, subject, text) => {
     const mailOptions = {
       from: "davidodimayo7@gmail.com",
       to: "frankorubor22@gmail.com",
+      to: "davidodimayo7@gmail.com",
       subject: subject,
       text: text,
     };
@@ -111,7 +112,17 @@ const checkExpiryAndSendEmails = async () => {
     const timeDifference = product.expiryDate - Date.now();
     const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-    if (daysDifference === 14 || daysDifference === 7 || daysDifference === 1) {
+    if (
+      daysDifference === 7 ||
+      daysDifference === 6 ||
+      daysDifference ===5 ||
+      daysDifference === 4 ||
+      daysDifference === 3 ||
+      daysDifference === 2 ||
+      daysDifference === 1 ||
+      daysDifference === 8 ||
+      daysDifference === 9
+    ) {
       sendEmail(
         product,
         "Product Expiry Alert",

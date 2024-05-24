@@ -26,7 +26,7 @@ const products = [
       Sound: "Loud",
       connectivity: "dual",
     },
-    expiryDate: "2024-03-15", // Example expiry date
+    expiryDate: "2024-05-25", // Example expiry date
   },
 
   {
@@ -56,7 +56,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
-    expiryDate: "2024-04-15",
+    expiryDate: "2024-05-21",
   },
   {
     name: "Ultimate Sound: Headphones for Immersive Audio",
@@ -85,7 +85,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
-    expiryDate: "2024-04-15",
+    expiryDate: "2024-05-25",
   },
 
   {
@@ -114,7 +114,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
-    expiryDate: "2024-03-30",
+    expiryDate: "2024-05-30",
   },
 
   {
@@ -168,7 +168,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-15",
+    expiryDate: "2024-05-27",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -194,7 +194,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-17",
+    expiryDate: "2024-05-27",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -221,7 +221,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-17",
+    expiryDate: "2024-05-27",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -248,7 +248,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-17",
+    expiryDate: "2024-05-20",
   },
   {
     name: "Gaming pad Bulk 10 pack multi colored",
@@ -274,7 +274,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-17",
+    expiryDate: "2024-05-21",
   },
 
   {
@@ -329,7 +329,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
-    expiryDate: "2024-04-25",
+    expiryDate: "2024-05-19",
   },
   {
     name: "PES 5: Experience the Ultimate Soccer Game",
@@ -383,7 +383,7 @@ const products = [
       colour: "multi-colored",
       type: "shorts",
     },
-    expiryDate: "2024-04-25",
+    expiryDate: "2024-05-19",
   },
   {
     name: "Cool Style: Explore Our Trendy Shorts Collection.",
@@ -409,7 +409,7 @@ const products = [
       colour: "multi-colored",
       type: "shorts",
     },
-    expiryDate: "2024-04-24",
+    expiryDate: "2024-05-19",
   },
   {
     name: "Style & Comfort: Explore Premium Shirt Collection",
@@ -434,7 +434,7 @@ const products = [
       Color: "Black",
       Brand: "Gucci",
     },
-    expiryDate: "2024-03-30",
+    expiryDate: "2024-05-20",
   },
 
   {
